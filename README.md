@@ -1,4 +1,4 @@
-# Task description
+# Selection statements
 
 A beginner level task for practicing selection statements.
 
