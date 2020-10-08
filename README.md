@@ -15,7 +15,10 @@ The task is to implement methods using `if...else`, `switch` statements and `swi
 
 You are allowed to use selection statements statements (`if...else`, `switch` statements), `switch` expression and conditional logical operator.
 
-1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and TODO.
+1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
+1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
+1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
+1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
 
 ## Fix Compiler Issues
 
