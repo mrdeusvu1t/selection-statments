@@ -13,19 +13,9 @@ The task is to implement methods using `if...else`, `switch` statements and `swi
 
 ## Complete the Task
 
-You are allowed to use loop statements (for, while and do), [Array.Length](https://docs.microsoft.com/en-us/dotnet/api/system.array.length) and [Array.IList.Item](https://docs.microsoft.com/en-us/dotnet/api/system.array.system-collections-ilist-item) properties only. You are not allowed to use other static or instance methods of the [Array class](https://docs.microsoft.com/en-us/dotnet/api/system.array) or any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
+You are allowed to use selection statements statements (`if...else`, `switch` statements), `switch` expression and conditional logical operator.
 
-
-1. Analyze the implementation of the "GetNegativeIntegerCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetNegativeIntegerCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetEvenNumberCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetEvenNumberCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetByteWithBitsInHighNibbleCountRecursive" method in the [ForMethods.cs](CountingArrayElements/ForMethods.cs) file. Implement "GetByteWithBitsInHighNibbleCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetEmptyStringCountRecursive" method in the [WhileMethods.cs](CountingArrayElements/WhileMethods.cs) file. Implement "GetEmptyStringCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetMinOrMaxLongCountRecursive" method in the [WhileMethods.cs](CountingArrayElements/WhileMethods.cs) file. Implement "GetMinOrMaxLongCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetNullObjectCountRecursive" method in the [WhileMethods.cs](CountingArrayElements/WhileMethods.cs) file. Implement "GetNullObjectCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetFalseValueCountRecursive" method in the [DoWhileMethods.cs](CountingArrayElements/DoWhileMethods.cs) file. Implement "GetFalseValueCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetZeroDecimalCountRecursive" method in the [DoWhileMethods.cs](CountingArrayElements/DoWhileMethods.cs) file. Implement "GetZeroDecimalCount" method. See the method documentation and TODO.
-1. Analyze the implementation of the "GetRoundedToEvenCountRecursive" method in the [DoWhileMethods.cs](CountingArrayElements/DoWhileMethods.cs) file. Implement "GetRoundedToEvenCount" method. See the method documentation and TODO.
-
+1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and TODO.
 
 ## Fix Compiler Issues
 
