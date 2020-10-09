@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SelectionStatments
 {
@@ -10,7 +10,7 @@ namespace SelectionStatments
         public static void WriteLargestWithNestedIfElse(int first, int second, int third)
         {
             // TODO #1: Add the method implementation. Restrictions:
-            // - the method can only use the nested if...else statements.
+            // - the method can only use the nested if...else statements;
             // - the method cannot use additional variables.
             throw new NotImplementedException();
         }
@@ -21,7 +21,7 @@ namespace SelectionStatments
         public static void WriteLargestWithIfElseAndTernaryOperator(int first, int second, int third)
         {
             // TODO #2: Add the method implementation. Restrictions:
-            // - the method can only use the if...else statement and ternary operators ?:.
+            // - the method can only use the if...else statement and ?: ternary operators;
             // - the method cannot use additional variables.
             throw new NotImplementedException();
         }
@@ -32,7 +32,7 @@ namespace SelectionStatments
         public static void WriteLargestWithIfElseAndConditionLogicalOperators(int first, int second, int third)
         {
             // TODO #3: Add the method implementation. Restrictions:
-            // - the method can only use the if...else statement and conditional logical operators.
+            // - the method can only use the if...else statement and conditional logical operators;
             // - the method cannot use additional variables.
             throw new NotImplementedException();
         }
@@ -47,9 +47,7 @@ namespace SelectionStatments
         /// <param name="userAge">User's age is more or equals zero.</param>
         public static void HowOldAreYouReactionWithCascadedIfElse(int userAge)
         {
-            // TODO #4: Add the method implementation. Restrictions:
-            // - the method can only use the cascaded if...else statement
-            // - the method cannot use additional variables.
+            // TODO #4: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement.
             throw new NotImplementedException();
         }
 
@@ -65,9 +63,7 @@ namespace SelectionStatments
         /// <param name="countOfDailyDownloads">Count of daily downloads more or equals zero.</param>
         public static void WriteInformationAboutDailyDownloadsWithCascadedIfElse(int countOfDailyDownloads)
         {
-            // TODO #5: Add the method implementation. Restrictions:
-            // - the method can only use the cascaded if...else statement
-            // - the method cannot use additional variables.
+            // TODO #5: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement.
             throw new NotImplementedException();
         }
         
@@ -81,9 +77,7 @@ namespace SelectionStatments
         /// <param name="dayOfWeek">Day of week.</param>
         public static void WriteTheInformationAboutDayWithIfElse(DayOfWeek dayOfWeek)
         {
-            // TODO #6: Add the method implementation. Restriction:
-            // - the method can only use the cascaded if...else statement and conditional logical operators.
-            // - the method cannot use additional variables.
+            // TODO #6: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and conditional logical operators.
             throw new NotImplementedException();
         }
         
@@ -97,14 +91,12 @@ namespace SelectionStatments
         /// <param name="dayOfWeek">Day of week.</param>
         public static void WriteTheInformationAboutDayWithSwitchStatement(DayOfWeek dayOfWeek)
         {
-            // TODO #7: Add the method implementation. Restriction:
-            // - the method can only use the switch statement.
-            // - the method cannot use additional variables.
+            // TODO #7: Add the method implementation. Restriction: the method can only use the switch statement.
             throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Writes the message with information about the type of integer in format:
+        /// Gets the message with information about the type of integer in format:
         /// - "{arg} is sbyte.", if arg is sbyte;
         /// - "{arg} is byte.", if arg is byte;
         /// - "{arg} is short.", if arg is short;
@@ -116,15 +108,14 @@ namespace SelectionStatments
         /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        public static void WriteTypeOfIntegerWithCascadedIfElse(object arg)
+        public static string GetTypeOfIntegerWithCascadedIfElse(object arg)
         {
-            // TODO #8: Add the method implementation. Restrictions:
-            // - the method can only use the cascaded if...else statement.
+            // TODO #8: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement;
             throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Writes the message with information about the type of integer in format:
+        /// Gets the message with information about the type of integer in format:
         /// - "{arg} is sbyte.", if arg is sbyte;
         /// - "{arg} is byte.", if arg is byte;
         /// - "{arg} is short.", if arg is short;
@@ -133,17 +124,17 @@ namespace SelectionStatments
         /// - "{arg} is ushort.", if arg is ushort;
         /// - "{arg} is uint.", if arg is uint;
         /// - "{arg} is ulong.", if arg is ulong.
+        /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        public static void WriteTypeOfIntegerWithSwitchStatement(object arg)
+        public static string GetTypeOfIntegerWithSwitchStatement(object arg)
         {
-            // TODO #9: Add the method implementation. Restrictions:
-            // - the method can only use the switch statement.
+            // TODO #9: Add the method implementation. Restrictions: the method can only use the switch statement.
             throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Returns the message with information about the type of integer in format:
+        /// Gets the message with information about the type of integer in format:
         /// - "{arg} is sbyte.", if arg is sbyte;
         /// - "{arg} is byte.", if arg is byte;
         /// - "{arg} is short.", if arg is short;
@@ -152,12 +143,12 @@ namespace SelectionStatments
         /// - "{arg} is ushort.", if arg is ushort;
         /// - "{arg} is uint.", if arg is uint;
         /// - "{arg} is ulong.", if arg is ulong.
+        /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        public static string WriteTypeOfIntegerWithSwitchExpression(object arg)
+        public static string GetTypeOfIntegerWithSwitchExpression(object arg)
         {
-            // TODO #10: Add the method implementation. Restrictions:
-            // - the method can only use the switch expression.
+            // TODO #10: Add the method implementation. Restrictions: the method can only use the switch expression.
             throw new NotImplementedException();
         }
 
@@ -170,10 +161,9 @@ namespace SelectionStatments
         /// - writes "Sorry, the month was entered incorrectly." otherwise.
         /// </summary>
         /// <param name="month">Source month.</param>
-        public static void WriteTheInformationAboutSeasons(Month month)
+        public static void WriteTheInformationAboutSeasonsWithSwitchStatement(Month month)
         {
-            // TODO #11: Add the method implementation. Restrictions:
-            // - the method can only use the switch statement.
+            // TODO #11: Add the method implementation. Restrictions: the method can only use the switch statement.
             throw new NotImplementedException();
         }
 
@@ -181,32 +171,55 @@ namespace SelectionStatments
         /// Returns the length of the integer's string presentation.
         /// </summary>
         /// <param name="number">Source integer.</param>
-        public static byte GetLengthUsingSwitchExpression(int number)
+        public static byte GetLengthWithCascadedIfElse(int number)
         {
-            // TODO #12: Add the method implementation. Restriction:
-            // - the method can only use the switch expression.
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer.
-        /// </summary>
-        /// <param name="month">Source integer.</param>
-        public static Month? GetMonthWithSwitchStatement(int month)
-        {
-            // TODO #13: Add the method implementation. Restriction:
-            // - the method can only use the switch statement.
+            // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement.
             throw new NotImplementedException();
         }
         
         /// <summary>
-        /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer.
+        /// Returns the length of the integer's string presentation.
+        /// </summary>
+        /// <param name="number">Source integer.</param>
+        public static byte GetLengthWithSwitchExpression(int number)
+        {
+            // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression.
+            throw new NotImplementedException();
+        }
+        
+        /// <summary>
+        /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or
+        /// null, if integer less than 1 or more than 7.
+        /// </summary>
+        /// <param name="month">Source integer.</param>
+        public static Month? GetMonthWithCascadedIfElse(int month)
+        {
+            // TODO #14: Add the method implementation. Restriction: the method can only use the cascaded if...else statement.
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or
+        /// null, if integer less than 1 or more than 7.
+        /// </summary>
+        /// <param name="month">Source integer.</param>
+        public static Month? GetMonthWithSwitchStatement(int month)
+        {
+            // TODO #15: Add the method implementation. Restriction: the method can only use the switch statement.
+            throw new NotImplementedException();
+        }
+        
+        /// <summary>
+        /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or
+        /// null, if integer less than 1 or more than 7.
         /// </summary>
         /// <param name="month">Source integer.</param>
         public static Month? GetMonthWithSwitchExpression(int month)
         {
-            // TODO #14: Add the method implementation. Restriction:
-            // - the method can only use the switch expression.
+            // TODO #16: Add the method implementation. Restriction: the method can only use the switch expression.
             throw new NotImplementedException();
         }
     }
