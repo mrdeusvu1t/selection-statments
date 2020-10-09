@@ -19,7 +19,7 @@ namespace SelectionStatements.Tests
             Console.SetOut(writer);
         }
         
-        [TearDown] 
+        [OneTimeTearDown] 
         public void Cleanup()
         {
             writer.Close();
@@ -27,6 +27,7 @@ namespace SelectionStatements.Tests
 
         [TestCase(7, -23, 13, 13)]
         [TestCase(77, 23, -13, 77)]
+        [TestCase(77, -23, 13, 77)]
         [TestCase(-7, 23, 103, 103)]
         [TestCase(7, 809, 13, 809)]
         [TestCase(-7, 89, -13, 89)]
@@ -43,6 +44,7 @@ namespace SelectionStatements.Tests
         
         [TestCase(7, -23, 13, 13)]
         [TestCase(77, 23, -13, 77)]
+        [TestCase(77, -23, 13, 77)]
         [TestCase(-7, 23, 103, 103)]
         [TestCase(7, 809, 13, 809)]
         [TestCase(-7, 89, -13, 89)]
@@ -59,6 +61,7 @@ namespace SelectionStatements.Tests
         
         [TestCase(7, -23, 13, 13)]
         [TestCase(77, 23, -13, 77)]
+        [TestCase(77, -23, 13, 77)]
         [TestCase(-7, 23, 103, 103)]
         [TestCase(7, 809, 13, 809)]
         [TestCase(-7, 89, -13, 89)]
@@ -110,9 +113,9 @@ namespace SelectionStatements.Tests
         [TestCase(6, ExpectedResult = "It's summer now.")]
         [TestCase(9, ExpectedResult = "It's autumn now.")]
         [TestCase(14, ExpectedResult = "Sorry, the month was entered incorrectly.")]
-        public string WriteTheInformationAboutSeasonsTests(Month month)
+        public string WriteTheInformationAboutSeasonsWithSwitchStatementTests(Month month)
         {
-            Statements.WriteTheInformationAboutSeasons(month);
+            Statements.WriteTheInformationAboutSeasonsWithSwitchStatement(month);
             return writer.GetStringBuilder().ToString().Trim();
         }
 
@@ -149,9 +152,42 @@ namespace SelectionStatements.Tests
         [TestCase(48, ExpectedResult = 2)]
         [TestCase(-1, ExpectedResult = 1)]
         [TestCase(0, ExpectedResult = 1)]
-        public int GetLengthUsingSwitchExpressionTests(int number)
+        public int GetLengthWithCascadedIfElseTests(int number)
         {
-            return Statements.GetLengthUsingSwitchExpression(number);
+            return Statements.GetLengthWithCascadedIfElse(number);
+        }
+        
+        [TestCase(int.MinValue, ExpectedResult = 10)]
+        [TestCase(int.MaxValue, ExpectedResult = 10)]
+        [TestCase(-1101123234, ExpectedResult = 10)]
+        [TestCase(-101123234, ExpectedResult = 9)]
+        [TestCase(-33123543, ExpectedResult = 8)]
+        [TestCase(3123543, ExpectedResult = 7)]
+        [TestCase(127653, ExpectedResult = 6)]
+        [TestCase(65908, ExpectedResult = 5)]
+        [TestCase(1500, ExpectedResult = 4)]
+        [TestCase(498, ExpectedResult = 3)]
+        [TestCase(48, ExpectedResult = 2)]
+        [TestCase(-1, ExpectedResult = 1)]
+        [TestCase(0, ExpectedResult = 1)]
+        public int GetLengthWithSwitchExpressionTests(int number)
+        {
+            return Statements.GetLengthWithSwitchExpression(number);
+        }
+        
+        [TestCase((sbyte)-12, ExpectedResult = "-12 is sbyte.")]
+        [TestCase((byte)126, ExpectedResult = "126 is byte.")]
+        [TestCase((ushort)65478, ExpectedResult = "65478 is ushort.")]
+        [TestCase(short.MinValue, ExpectedResult = "-32768 is short.")]
+        [TestCase(int.MaxValue, ExpectedResult = "2147483647 is int.")]
+        [TestCase(217483649L, ExpectedResult = "2147483649 is long.")]
+        [TestCase(908876L, ExpectedResult = "908876 is long.")]
+        [TestCase(1239087ul, ExpectedResult = "1239087 is ulong.")]
+        [TestCase(90f, ExpectedResult = "90 is not integer.")]
+        [TestCase(90d, ExpectedResult = "90 is not integer.")]
+        public string GetTypeOfIntegerWithCascadedIfElseTests(object arg)
+        {
+            return Statements.GetTypeOfIntegerWithCascadedIfElse(arg);
         }
         
         [TestCase((sbyte)-12, ExpectedResult = "-12 is sbyte.")]
@@ -162,13 +198,11 @@ namespace SelectionStatements.Tests
         [TestCase(2147483649L, ExpectedResult = "2147483649 is long.")]
         [TestCase(908876L, ExpectedResult = "908876 is long.")]
         [TestCase(1239087ul, ExpectedResult = "1239087 is ulong.")]
-        [TestCase(null, ExpectedResult = "is not integer.")]
         [TestCase(90f, ExpectedResult = "90 is not integer.")]
         [TestCase(90d, ExpectedResult = "90 is not integer.")]
-        public string WriteTypeOfIntegerWithCascadedIfElseTests(object arg)
+        public string GetTypeOfIntegerWithSwitchStatementTests(object arg)
         {
-            Statements.WriteTypeOfIntegerWithCascadedIfElse(arg);
-            return writer.GetStringBuilder().ToString().Trim();
+            return Statements.GetTypeOfIntegerWithSwitchStatement(arg);
         }
         
         [TestCase((sbyte)-12, ExpectedResult = "-12 is sbyte.")]
@@ -179,29 +213,11 @@ namespace SelectionStatements.Tests
         [TestCase(2147483649L, ExpectedResult = "2147483649 is long.")]
         [TestCase(908876L, ExpectedResult = "908876 is long.")]
         [TestCase(1239087ul, ExpectedResult = "1239087 is ulong.")]
-        [TestCase(null, ExpectedResult = "is not integer.")]
         [TestCase(90f, ExpectedResult = "90 is not integer.")]
         [TestCase(90d, ExpectedResult = "90 is not integer.")]
-        public string WriteTypeOfIntegerWithSwitchStatementTests(object arg)
+        public string GetTypeOfIntegerWithSwitchExpressionTests(object arg)
         {
-            Statements.WriteTypeOfIntegerWithSwitchStatement(arg);
-            return writer.GetStringBuilder().ToString().Trim();
-        }
-        
-        [TestCase((sbyte)-12, ExpectedResult = "-12 is sbyte.")]
-        [TestCase((byte)126, ExpectedResult = "126 is byte.")]
-        [TestCase((ushort)65478, ExpectedResult = "65478 is ushort.")]
-        [TestCase(short.MinValue, ExpectedResult = "-32768 is short.")]
-        [TestCase(int.MaxValue, ExpectedResult = "2147483647 is int.")]
-        [TestCase(2147483649L, ExpectedResult = "2147483649 is long.")]
-        [TestCase(908876L, ExpectedResult = "908876 is long.")]
-        [TestCase(1239087ul, ExpectedResult = "1239087 is ulong.")]
-        [TestCase(null, ExpectedResult = " is not integer.")]
-        [TestCase(90f, ExpectedResult = "90 is not integer.")]
-        [TestCase(90d, ExpectedResult = "90 is not integer.")]
-        public string WriteTypeOfIntegerWithSwitchExpressionTests(object arg)
-        {
-            return Statements.WriteTypeOfIntegerWithSwitchExpression(arg);
+            return Statements.GetTypeOfIntegerWithSwitchExpression(arg);
         }
 
         [TestCase(1, ExpectedResult = Month.January)]
@@ -218,7 +234,26 @@ namespace SelectionStatements.Tests
         [TestCase(12, ExpectedResult = Month.December)]
         [TestCase(13, ExpectedResult = null)]
         [TestCase(-123, ExpectedResult = null)]
-        public Month? GetMonthWithSwitchStatementTest(int month)
+        public Month? GetMonthWithCascadedIfElseTests(int month)
+        {
+            return Statements.GetMonthWithCascadedIfElse(month);
+        }
+        
+        [TestCase(1, ExpectedResult = Month.January)]
+        [TestCase(2, ExpectedResult = Month.February)]
+        [TestCase(3, ExpectedResult = Month.March)]
+        [TestCase(4, ExpectedResult = Month.April)]
+        [TestCase(5, ExpectedResult = Month.May)]
+        [TestCase(6, ExpectedResult = Month.June)]
+        [TestCase(7, ExpectedResult = Month.July)]
+        [TestCase(8, ExpectedResult = Month.August)]
+        [TestCase(9, ExpectedResult = Month.September)]
+        [TestCase(10, ExpectedResult = Month.October)]
+        [TestCase(11, ExpectedResult = Month.November)]
+        [TestCase(12, ExpectedResult = Month.December)]
+        [TestCase(13, ExpectedResult = null)]
+        [TestCase(-123, ExpectedResult = null)]
+        public Month? GetMonthWithSwitchStatementTests(int month)
         {
             return Statements.GetMonthWithSwitchStatement(month);
         }
