@@ -2,7 +2,7 @@
 
 A beginner level task for practicing selection statements.
 
-The task is to implement methods using `if...else`, `switch` statements and `switch` expression.
+The task is to implement methods using `if...else`, `switch` statements, conditional logical operators, `switch` expression and basic data types.
 
 
 ## Get the Project
@@ -15,10 +15,20 @@ The task is to implement methods using `if...else`, `switch` statements and `swi
 
 You are allowed to use selection statements statements (`if...else`, `switch` statements), `switch` expression and conditional logical operator.
 
-1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
-1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
-1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
-1. Implement a [PrintLargestWithNestedIfElse](url) method. See the method documentation and `TODO`.
+1. Implement a [WriteLargestWithNestedIfElse](SelectionStatments/Statements.cs#L10) method. See the method documentation and `TODO`.
+1. Implement a [WriteLargestWithIfElseAndTernaryOperator](SelectionStatments/Statements.cs#L21) method. See the method documentation and `TODO`.
+1. Implement a [WriteLargestWithIfElseAndConditionLogicalOperators](SelectionStatments/Statements.cs#L32) method. See the method documentation and `TODO`.
+1. Implement a [HowOldAreYouReactionWithCascadedIfElse](SelectionStatments/Statements.cs#L48) method. See the method documentation and `TODO`.
+1. Implement a [WriteInformationAboutDailyDownloadsWithCascadedIfElse](SelectionStatments/Statements.cs#L66) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutDayWithIfElse](SelectionStatments/Statements.cs#L82) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutDayWithSwitchStatement](SelectionStatments/Statements.cs#L98) method. See the method documentation and `TODO`.
+1. Implement a [WriteTypeOfIntegerWithCascadedIfElse](SelectionStatments/Statements.cs#L119) method. See the method documentation and `TODO`.
+1. Implement a [WriteTypeOfIntegerWithSwitchStatement](SelectionStatments/Statements.cs#L138) method. See the method documentation and `TODO`.
+1. Implement a [WriteTypeOfIntegerWithSwitchExpression](SelectionStatments/Statements.cs#L157) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutSeasons](SelectionStatments/Statements.cs#L173) method. See the method documentation and `TODO`.
+1. Implement a [GetLengthUsingSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithSwitchStatement](SelectionStatments/Statements.cs#L195) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithSwitchExpression](SelectionStatments/Statements.cs#L206) method. See the method documentation and `TODO`.
 
 ## Fix Compiler Issues
 
