@@ -180,7 +180,7 @@ namespace SelectionStatements.Tests
         [TestCase((ushort)65478, ExpectedResult = "65478 is ushort.")]
         [TestCase(short.MinValue, ExpectedResult = "-32768 is short.")]
         [TestCase(int.MaxValue, ExpectedResult = "2147483647 is int.")]
-        [TestCase(217483649L, ExpectedResult = "2147483649 is long.")]
+        [TestCase(2147483649L, ExpectedResult = "2147483649 is long.")]
         [TestCase(908876L, ExpectedResult = "908876 is long.")]
         [TestCase(1239087ul, ExpectedResult = "1239087 is ulong.")]
         [TestCase(90f, ExpectedResult = "90 is not integer.")]
