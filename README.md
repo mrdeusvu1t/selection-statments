@@ -19,16 +19,20 @@ You are allowed to use selection statements statements (`if...else`, `switch` st
 1. Implement a [WriteLargestWithIfElseAndTernaryOperator](SelectionStatments/Statements.cs#L21) method. See the method documentation and `TODO`.
 1. Implement a [WriteLargestWithIfElseAndConditionLogicalOperators](SelectionStatments/Statements.cs#L32) method. See the method documentation and `TODO`.
 1. Implement a [HowOldAreYouReactionWithCascadedIfElse](SelectionStatments/Statements.cs#L48) method. See the method documentation and `TODO`.
-1. Implement a [WriteInformationAboutDailyDownloadsWithCascadedIfElse](SelectionStatments/Statements.cs#L66) method. See the method documentation and `TODO`.
-1. Implement a [WriteTheInformationAboutDayWithIfElse](SelectionStatments/Statements.cs#L82) method. See the method documentation and `TODO`.
-1. Implement a [WriteTheInformationAboutDayWithSwitchStatement](SelectionStatments/Statements.cs#L98) method. See the method documentation and `TODO`.
-1. Implement a [WriteTypeOfIntegerWithCascadedIfElse](SelectionStatments/Statements.cs#L119) method. See the method documentation and `TODO`.
-1. Implement a [WriteTypeOfIntegerWithSwitchStatement](SelectionStatments/Statements.cs#L138) method. See the method documentation and `TODO`.
-1. Implement a [WriteTypeOfIntegerWithSwitchExpression](SelectionStatments/Statements.cs#L157) method. See the method documentation and `TODO`.
-1. Implement a [WriteTheInformationAboutSeasons](SelectionStatments/Statements.cs#L173) method. See the method documentation and `TODO`.
-1. Implement a [GetLengthUsingSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.
-1. Implement a [GetMonthWithSwitchStatement](SelectionStatments/Statements.cs#L195) method. See the method documentation and `TODO`.
-1. Implement a [GetMonthWithSwitchExpression](SelectionStatments/Statements.cs#L206) method. See the method documentation and `TODO`.
+1. Implement a [WriteInformationAboutDailyDownloadsWithCascadedIfElse](SelectionStatments/Statements.cs#L64) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutDayWithIfElse](SelectionStatments/Statements.cs#L78) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutDayWithSwitchStatement](SelectionStatments/Statements.cs#L92) method. See the method documentation and `TODO`.
+1. Implement a [GetTypeOfIntegerWithCascadedIfElse](SelectionStatments/Statements.cs#L111) method. See the method documentation and `TODO`.
+1. Implement a [GetTypeOfIntegerWithSwitchStatement](SelectionStatments/Statements.cs#L130) method. See the method documentation and `TODO`.
+1. Implement a [GetTypeOfIntegerWithSwitchExpression](SelectionStatments/Statements.cs#L149) method. See the method documentation and `TODO`.
+1. Implement a [WriteTheInformationAboutSeasons](SelectionStatments/Statements.cs#L164) method. See the method documentation and `TODO`.
+1. Implement a [GetLengthWithCascadedIfElse](SelectionStatments/Statements.cs#L174) method. See the method documentation and `TODO`.
+1. Implement a [GetLengthWithSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithCascadedIfElse](SelectionStatments/Statements.cs#L196) method. See the method documentation and `TODO`.
+1. Implement a [GetLengthWithSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithCascadedIfElse](SelectionStatments/Statements.cs#L196) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithSwitchStatement](SelectionStatments/Statements.cs#L208) method. See the method documentation and `TODO`.
+1. Implement a [GetMonthWithSwitchExpression](SelectionStatments/Statements.cs#L220) method. See the method documentation and `TODO`.
 
 ## Fix Compiler Issues
 
