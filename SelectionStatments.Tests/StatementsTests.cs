@@ -19,7 +19,8 @@ namespace SelectionStatements.Tests
             Console.SetOut(writer);
         }
         
-        [TearDown] public void Cleanup()
+        [TearDown] 
+        public void Cleanup()
         {
             writer.Close();
         }
@@ -148,9 +149,9 @@ namespace SelectionStatements.Tests
         [TestCase(48, ExpectedResult = 2)]
         [TestCase(-1, ExpectedResult = 1)]
         [TestCase(0, ExpectedResult = 1)]
-        public int GetLengthUsingSwitchExpressionTests(int integer)
+        public int GetLengthUsingSwitchExpressionTests(int number)
         {
-            return Statements.GetLengthUsingSwitchExpression(integer);
+            return Statements.GetLengthUsingSwitchExpression(number);
         }
         
         [TestCase((sbyte)-12, ExpectedResult = "-12 is sbyte.")]
