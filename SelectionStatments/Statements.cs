@@ -173,7 +173,7 @@ namespace SelectionStatments
         /// <param name="number">Source integer.</param>
         public static byte GetLengthWithCascadedIfElse(int number)
         {
-            // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and arithmetic operations.
+            // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and conditional operations.
             throw new NotImplementedException();
         }
         
@@ -183,7 +183,7 @@ namespace SelectionStatments
         /// <param name="number">Source integer.</param>
         public static byte GetLengthWithSwitchExpression(int number)
         {
-            // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression and arithmetic operations.
+            // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression and conditional operations.
             throw new NotImplementedException();
         }
         
