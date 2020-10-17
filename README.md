@@ -26,8 +26,8 @@ You are allowed to use selection statements statements (`if...else`, `switch` st
 1. Implement a [GetTypeOfIntegerWithSwitchStatement](SelectionStatments/Statements.cs#L130) method. See the method documentation and `TODO`.
 1. Implement a [GetTypeOfIntegerWithSwitchExpression](SelectionStatments/Statements.cs#L149) method. See the method documentation and `TODO`.
 1. Implement a [WriteTheInformationAboutSeasons](SelectionStatments/Statements.cs#L164) method. See the method documentation and `TODO`.
-1. Implement a [GetLengthWithCascadedIfElse](SelectionStatments/Statements.cs#L174) method. See the method documentation and `TODO`.
-1. Implement a [GetLengthWithSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.
+1. Implement a [GetLengthWithCascadedIfElse](SelectionStatments/Statements.cs#L174) method. See the method documentation and `TODO`. Do not use a `ToString` method.
+1. Implement a [GetLengthWithSwitchExpression](SelectionStatments/Statements.cs#L184) method. See the method documentation and `TODO`.  Do not use a `ToString` method.
 1. Implement a [GetMonthWithCascadedIfElse](SelectionStatments/Statements.cs#L196) method. See the method documentation and `TODO`.
 1. Implement a [GetMonthWithSwitchStatement](SelectionStatments/Statements.cs#L208) method. See the method documentation and `TODO`.
 1. Implement a [GetMonthWithSwitchExpression](SelectionStatments/Statements.cs#L220) method. See the method documentation and `TODO`.
