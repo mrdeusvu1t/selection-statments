@@ -190,7 +190,7 @@ namespace SelectionStatments
         /// <summary>
         /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
         /// - or
-        /// null, if integer less than 1 or more than 7.
+        /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
         public static Month? GetMonthWithCascadedIfElse(int month)
@@ -202,7 +202,7 @@ namespace SelectionStatments
         /// <summary>
         /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
         /// - or
-        /// null, if integer less than 1 or more than 7.
+        /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
         public static Month? GetMonthWithSwitchStatement(int month)
@@ -214,7 +214,7 @@ namespace SelectionStatments
         /// <summary>
         /// Returns the value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
         /// - or
-        /// null, if integer less than 1 or more than 7.
+        /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
         public static Month? GetMonthWithSwitchExpression(int month)
