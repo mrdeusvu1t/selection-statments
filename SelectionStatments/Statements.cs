@@ -7,6 +7,9 @@ namespace SelectionStatments
         /// <summary>
         /// Writes the largest of three numbers in a separate line in format "Number {0} is the largest".
         /// </summary>
+        /// <param name="first">First number.</param>
+        /// <param name="second">Second number.</param>
+        /// <param name="third">Third number.</param>
         public static void WriteLargestWithNestedIfElse(int first, int second, int third)
         {
             // TODO #1: Add the method implementation. Restrictions:
@@ -18,6 +21,9 @@ namespace SelectionStatments
         /// <summary>
         /// Writes the largest of three numbers in a separate line in format "Number {0} is the largest".
         /// </summary>
+        /// <param name="first">First number.</param>
+        /// <param name="second">Second number.</param>
+        /// <param name="third">Third number.</param>
         public static void WriteLargestWithIfElseAndTernaryOperator(int first, int second, int third)
         {
             // TODO #2: Add the method implementation. Restrictions:
@@ -29,6 +35,9 @@ namespace SelectionStatments
         /// <summary>
         /// Writes the largest of three numbers in a separate line in format "Number {0} is the largest".
         /// </summary>
+        /// <param name="first">First number.</param>
+        /// <param name="second">Second number.</param>
+        /// <param name="third">Third number.</param>
         public static void WriteLargestWithIfElseAndConditionLogicalOperators(int first, int second, int third)
         {
             // TODO #3: Add the method implementation. Restrictions:
