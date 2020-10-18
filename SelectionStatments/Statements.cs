@@ -69,7 +69,7 @@ namespace SelectionStatments
         
         /// <summary>
         /// Writes on base on the DayOfWeek enumeration whether a particular date is
-        /// - a weekend, writes "The weekend";
+        /// - a weekend, writes "The weekend.";
         /// - the first day of the work week, writes "The first day of the work week.";
         /// - the last day of the work week, writes "The last day of the work week.";
         /// - the middle of the work week, "The middle of the work week.".
@@ -83,7 +83,7 @@ namespace SelectionStatments
         
         /// <summary>
         /// Determines on base on the DayOfWeek enumeration whether a particular date is
-        /// - a weekend, writes "The weekend";
+        /// - a weekend, writes "The weekend.";
         /// - the first day of the work week, writes "The first day of the work week.";
         /// - the last day of the work week, writes "The last day of the work week.";
         /// - the middle of the work week, "The middle of the work week.".
