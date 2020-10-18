@@ -180,6 +180,7 @@ namespace SelectionStatments
         /// Returns the length of the integer's string presentation.
         /// </summary>
         /// <param name="number">Source integer.</param>
+        /// <returns>The length of the integer's string presentation.</returns>
         public static byte GetLengthWithCascadedIfElse(int number)
         {
             // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and conditional operations.
@@ -190,6 +191,7 @@ namespace SelectionStatments
         /// Returns the length of the integer's string presentation.
         /// </summary>
         /// <param name="number">Source integer.</param>
+        /// <returns>The length of the integer's string presentation.</returns>
         public static byte GetLengthWithSwitchExpression(int number)
         {
             // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression and conditional operations.
