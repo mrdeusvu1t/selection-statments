@@ -202,6 +202,9 @@ namespace SelectionStatments
         /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
+        /// <returns>The value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or null, if integer less than 1 or more than 12.
+        /// </returns>
         public static Month? GetMonthWithCascadedIfElse(int month)
         {
             // TODO #14: Add the method implementation. Restriction: the method can only use the cascaded if...else statement.
@@ -214,6 +217,9 @@ namespace SelectionStatments
         /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
+        /// <returns>The value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or null, if integer less than 1 or more than 12.
+        /// </returns>
         public static Month? GetMonthWithSwitchStatement(int month)
         {
             // TODO #15: Add the method implementation. Restriction: the method can only use the switch statement.
@@ -226,6 +232,9 @@ namespace SelectionStatments
         /// null, if integer less than 1 or more than 12.
         /// </summary>
         /// <param name="month">Source integer.</param>
+        /// <returns>The value of enum <see cref="SelectionStatments.Month"/> that corresponds to the given integer
+        /// - or null, if integer less than 1 or more than 12.
+        /// </returns>
         public static Month? GetMonthWithSwitchExpression(int month)
         {
             // TODO #16: Add the method implementation. Restriction: the method can only use the switch expression.
