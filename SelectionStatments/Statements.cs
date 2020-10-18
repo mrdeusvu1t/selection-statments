@@ -117,7 +117,7 @@ namespace SelectionStatments
         /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        /// <returns>Еhe message with information about the type of integer.</returns>
+        /// <returns>The message with information about the type of integer.</returns>
         public static string GetTypeOfIntegerWithCascadedIfElse(object arg)
         {
             // TODO #8: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement;
@@ -137,7 +137,7 @@ namespace SelectionStatments
         /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        /// <returns>Еhe message with information about the type of integer.</returns>
+        /// <returns>The message with information about the type of integer.</returns>
         public static string GetTypeOfIntegerWithSwitchStatement(object arg)
         {
             // TODO #9: Add the method implementation. Restrictions: the method can only use the switch statement.
@@ -157,7 +157,7 @@ namespace SelectionStatments
         /// - "{arg} is not integer.", otherwise.
         /// </summary>
         /// <param name="arg">Presents some integer.</param>
-        /// <returns>Еhe message with information about the type of integer.</returns>
+        /// <returns>The message with information about the type of integer.</returns>
         public static string GetTypeOfIntegerWithSwitchExpression(object arg)
         {
             // TODO #10: Add the method implementation. Restrictions: the method can only use the switch expression.
