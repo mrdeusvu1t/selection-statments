@@ -123,6 +123,8 @@ namespace SelectionStatements.Tests
         [TestCase(DayOfWeek.Saturday, ExpectedResult = "The weekend.")]
         [TestCase(DayOfWeek.Monday, ExpectedResult = "The first day of the work week.")]
         [TestCase(DayOfWeek.Friday, ExpectedResult = "The last day of the work week.")]
+        [TestCase(DayOfWeek.Tuesday, ExpectedResult = "The middle of the work week.")]
+        [TestCase(DayOfWeek.Wednesday, ExpectedResult = "The middle of the work week.")]
         public string WriteTheInformationAboutDayWithIfElseTests(DayOfWeek dayOfWeek)
         {
             Statements.WriteTheInformationAboutDayWithIfElse(dayOfWeek);
@@ -133,6 +135,8 @@ namespace SelectionStatements.Tests
         [TestCase(DayOfWeek.Saturday, ExpectedResult = "The weekend.")]
         [TestCase(DayOfWeek.Monday, ExpectedResult = "The first day of the work week.")]
         [TestCase(DayOfWeek.Friday, ExpectedResult = "The last day of the work week.")]
+        [TestCase(DayOfWeek.Tuesday, ExpectedResult = "The middle of the work week.")]
+        [TestCase(DayOfWeek.Wednesday, ExpectedResult = "The middle of the work week.")]
         public string WriteTheInformationAboutDayWithSwitchStatementTests(DayOfWeek dayOfWeek)
         {
             Statements.WriteTheInformationAboutDayWithSwitchStatement(dayOfWeek);
