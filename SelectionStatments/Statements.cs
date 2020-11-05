@@ -120,7 +120,7 @@ namespace SelectionStatments
         /// <returns>The message with information about the type of integer.</returns>
         public static string GetTypeOfIntegerWithCascadedIfElse(object arg)
         {
-            // TODO #8: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement;
+            // TODO #8: Add the method implementation. Restrictions: the method can only use the cascaded if...else statement; don't use  
             throw new NotImplementedException();
         }
 
@@ -186,7 +186,7 @@ namespace SelectionStatments
         /// <returns>The length of the integer's string presentation.</returns>
         public static byte GetLengthWithCascadedIfElse(int number)
         {
-            // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and conditional operations.
+            // TODO #12: Add the method implementation. Restriction: the method can only use the cascaded if...else statement and comparison operations.
             throw new NotImplementedException();
         }
         
@@ -197,7 +197,7 @@ namespace SelectionStatments
         /// <returns>The length of the integer's string presentation.</returns>
         public static byte GetLengthWithSwitchExpression(int number)
         {
-            // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression and conditional operations.
+            // TODO #13: Add the method implementation. Restriction: the method can only use the switch expression and comparison operations.
             throw new NotImplementedException();
         }
         
