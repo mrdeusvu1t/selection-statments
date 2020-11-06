@@ -156,7 +156,7 @@ namespace SelectionStatements.Tests
         [TestCase(48, ExpectedResult = 2)]
         [TestCase(-1, ExpectedResult = 1)]
         [TestCase(0, ExpectedResult = 1)]
-        public int GetLengthWithCascadedIfElseTests(int number)
+        public byte GetLengthWithCascadedIfElseTests(int number)
         {
             return Statements.GetLengthWithCascadedIfElse(number);
         }
@@ -174,7 +174,7 @@ namespace SelectionStatements.Tests
         [TestCase(48, ExpectedResult = 2)]
         [TestCase(-1, ExpectedResult = 1)]
         [TestCase(0, ExpectedResult = 1)]
-        public int GetLengthWithSwitchExpressionTests(int number)
+        public byte GetLengthWithSwitchExpressionTests(int number)
         {
             return Statements.GetLengthWithSwitchExpression(number);
         }
