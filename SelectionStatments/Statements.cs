@@ -351,7 +351,6 @@ namespace SelectionStatments
                 var _ when Math.Abs(number) < 10000000 => 7,
                 var _ when Math.Abs(number) < 100000000 => 8,
                 var _ when Math.Abs(number) < 1000000000 => 9,
-                var _ when Math.Abs(number) < 10000000000 => 10,
                 _ => 10
 
             };
